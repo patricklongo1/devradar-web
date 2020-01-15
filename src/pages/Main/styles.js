@@ -1,12 +1,21 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
+import background from '../../assets/background.jpg';
 
 export const Container = styled.div`
     min-height: 100%;
-    max-width: 1200px;
+    background: #000;
+`;
+
+export const Content = styled.div`
+    min-height: 100%;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 60px 30px;
-    background: #e5e6f0;
+    padding: 60px 90px;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.05)),
+        url(${background}) no-repeat;
+    background-size: cover;
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -119,6 +128,7 @@ export const DevList = styled.ul`
                 width: 54px;
                 height: 54px;
                 border-radius: 50%;
+                background: #888;
             }
         }
 
