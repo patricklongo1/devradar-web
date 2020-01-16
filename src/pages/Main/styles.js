@@ -3,15 +3,17 @@ import { darken } from 'polished';
 import background from '../../assets/background.jpg';
 
 export const Container = styled.div`
+    height: 100%;
     min-height: 100%;
-    background: #000;
+    background: #888;
+    display: flex;
 `;
 
 export const Content = styled.div`
-    min-height: 100%;
+    position: absolute;
     max-width: 100%;
     margin: 0 auto;
-    padding: 60px 90px;
+    padding: 100px 60px;
     background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.05)),
         url(${background}) no-repeat;
     background-size: cover;
