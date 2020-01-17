@@ -6,6 +6,7 @@ export const Register = styled.aside`
     width: 320px;
     background: #fff;
     box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border: 2px solid #00ff00;
     border-radius: 2px;
     padding: 30px 20px;
     margin-right: 30px;

@@ -19,6 +19,7 @@ export const DevListComp = styled.ul`
     li {
         background: #fff;
         box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+        border: 2px solid #00ff00;
         border-radius: 2px;
         padding: 20px;
 
