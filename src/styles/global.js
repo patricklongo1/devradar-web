@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import 'react-toastify/dist/ReactToastify.css';
+import background from '../assets/background.jpg';
 
 export default createGlobalStyle`
     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
@@ -13,11 +14,12 @@ export default createGlobalStyle`
         outline: 0;
     }
     html, body, #root {
-        height: 100%;
+        min-height: 100%;
     }
     body {
-        min-height: 100%;
-        background: #E5E6F0;
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.05)),
+        url(${background}) no-repeat;
+        background-size: cover;
         -webkit-font-smoothing: antialiased !important;
         text-rendering: optimizeLegibility !important;
     }
