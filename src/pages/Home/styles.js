@@ -14,7 +14,7 @@ export const ButtonContainer = styled.div`
 `;
 
 export const DisplayContainer = styled.div`
-    margin-top: 70px;
+    margin: 70px auto;
     background: none;
     width: 100%;
     height: 450px;
